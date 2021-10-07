@@ -6,8 +6,7 @@
 trigger:
 - master
 
-variables:
-  - group: Variable_Group
+variables: 
 
   - name: projectRoot
     value: $(System.DefaultWorkingDirectory)
